@@ -3,8 +3,8 @@ import webbrowser
 # Classes
 class Media:
 	"""
-	Parent class to the children Movie and Tv. Takes variables and from a list and assigns
-	them attributes.
+	Parent class to the children Movie and Tv. Takes variables and from a 
+	list and assigns them attributes.
 	"""
 
 	def __init__(self, title, storyline, poster_image_url, trailer_youtube):
@@ -19,7 +19,8 @@ class Media:
 
 class Movie(Media):
 	"""
-	Child to Media class. Takes variables from a list and assigns attributes to them.
+	Child to Media class. Takes variables from a list and assigns attributes 
+	to them.
 	"""
 
 	def __init__(self, title, storyline, poster_image_url, trailer_youtube, runtime):
@@ -29,7 +30,8 @@ class Movie(Media):
 
 class Tv(Media):
 	"""
-	Child to Media class. Takes variables from a list and assigns attributes to them.
+	Child to Media class. Takes variables from a list and assigns attributes 
+	to them.
 	"""
 
 	def __init__(self, title, storyline, poster_image_url, trailer_youtube):
