@@ -2,7 +2,7 @@
 
 ## Desciption
 
-The project uses the [bootstrap](http://getbootstrap.com/) template to create a local html site for showing my favorite movies and TV shows. Using the freshtomatoes.py template and editing the basic skeleton to add more functionality. The data is saved in classes with media.py and called upon using entertainment_center.py.
+The project uses the [bootstrap](http://getbootstrap.com/) template to create a local html site for showing my favorite movies and TV shows. Using the freshtomatoes.py template supplied from udacity and editing the basic skeleton to add more functionality. The data is saved in classes with media.py and called upon using entertainment_center.py.
 
 ## How to use
 
